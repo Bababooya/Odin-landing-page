@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" src="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Landing page</title>
   </head>
-  <header class="header">
-    <nav>
-      <ul>
-        <li>Logo</li>
-        <li>Link1</li>
-        <li>Link2</li>
-        <li>Link3</li>
+  <header class="heading">
+    <nav class="navbox">
+      <ul class="nav_links">
+        <li class="logo"><a href="#">Logo</a></li>
+        <li class="links"><a href="#">Link 1</a></li>
+        <li class="links"><a href="#">Link 2</a></li>
+        <li class="links"><a href="#">Link 3</a></li>
       </ul>
     </nav>
-    <h1>This website is awesome</h1>
-    <p>
-      This website has some subtext that goes here under the main title. it's a
-      smaller font and the color is lower contrast.
-    </p>
-    <img src="" alt="PLACEHOLDER IMAGE" />
-    <a>Button</a>
+    <div class="headerbox">
+      <h1>This website is awesome</h1>
+      <p class="headertxt">
+        This website has some subtext that goes here under the main title. it's
+        a smaller font and the color is lower contrast.
+      </p>
+      <img class="headerimg" src="" alt="PLACEHOLDER IMAGE" />
+      <a class="headerbtn" href="#"><button>Button</button></a>
+    </div>
   </header>
   <body>
     <h2>Some Additional Information!</h2>
-    <div class="randominfobox"></div>
+    <div class="randominfobox">
+      <img src="" alt="placeholder1" />
+      <img src="" alt="placeholder2" />
+      <img src="" alt="placeholder3" />
+      <img src="" alt="placeholder4" />
+    </div>
+    <div class="quote">
+      <p>
+        This is an inspiring quote, or a bababooya from a customer. Maybe it's a
+        meme, or maybe people will read it. Who knows? It's good to have.
+      </p>
+      <p class="quotename">-Bababooya, Memelord</p>
+    </div>
   </body>
-  <footer></footer>
+  <footer class="footer">
+    <div class="cta">
+      <h4>Call to action! it's time!</h4>
+      <p>Sign up for our product by clicking that button over there!</p>
+      <a href="#"><button>Memes</button></a>
+    </div>
+  </footer>
 </html>
