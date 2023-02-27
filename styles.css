@@ -31,9 +31,10 @@ a {
 
 
 .navlogo {
+ font-weight: bolder;
  margin-right: auto;
  margin-left: 30px;
- size: 24px;
+ size: 50px;
  color: #f9faf8;
 }
 
@@ -52,7 +53,7 @@ a {
 
 .headertitle {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #f9faf8;
     display: inline-block;
 }
@@ -71,4 +72,91 @@ a {
     
     width: 350px;
     align-items: flex-end;
+}
+
+.headerbtn {
+    background-color: lightblue;
+    width: 20%;
+    flex: 0 0;
+}
+
+.addinfo {
+    margin: auto;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+}
+
+.addinfobox {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.infoimg {
+    height: 160px;
+    width: 160px;
+    border: solid 5px lightblue;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    margin: auto;
+}
+
+.quotetxt {
+    padding: 10px;
+    justify-content: center;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.quotename {
+    font-size: large;
+    font-weight: bolder;
+    align-self: flex-end;
+    margin-right: 70px;
+}
+
+.footer {
+    margin: auto;
+   display: flex;
+   width: 80%;
+   background-color: aqua;
+   border-radius: 25px;
+}
+
+.ctaheader {
+ font-weight: bolder;
+ font-size: 30px;
+}
+
+.flextxt {
+    margin: auto;
+    padding: 0%;
+}
+
+.ctabtn{
+    margin-right: 30px;
+    border-radius: 25px;
+    background-color: grey;
+    color: white;
+    align-self: center;
+    height: 10%;
+    width: 10%;
+}
+
+.footlogo {
+    background-color: #1f2937;
+}
+
+.fttxt {
+    margin-left: 300px;
+    color: #E5E7EB;
+}
+
+.odintxt {
+    font-size: larger;
+    font-weight: bolder;
 }
